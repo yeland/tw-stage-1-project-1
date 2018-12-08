@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: black;
+    width: 95%;
+    margin: auto;
+    padding-top: 10px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:white;
+} 
+.header {
+    background: url('./images/starfield-banner.jpg ');
+    position: fixed;
+    width: 95%;
+    padding: 10px;
+}
+
+/* .header .logo-link {
+    padding: 10px;
+} */
+
+.header .logo {
+    width:110px;
+    margin:11px;
+} 
+.logo {
+    float: left;
+}
+#nav {
+    float: left;
+    width: 75%;
+}
+.header input {
+    float: left;
+    width: 130px;
+    height: 25px;
+    background: rgb(54, 53, 53); 
+    background-image: url("./images/search.svg");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 110px 3px;
+    border-style: none;
+    padding: 5px;
+    margin: 20px 0 0 -10px;
+}
+.share {
+    width: 28px;
+    height: 28px;
+    margin: 25px 0 0 0;
+}
+#big {
+    margin: 10px 0px 10px 140px;
+}
+#big ul {
+    height: 50px;
+    padding: 0;
+}
+#big ul li {
+    float: left;
+    line-height: 50px;
+}
+#big ul li a {
+    padding: 12px;
+    border-right: 1px solid grey;
+    font-size: large;
+}
+#big ul li:last-of-type a{
+    border-style: none;
+}
+#small {
+    float: left;
+    margin: 10px 0 0 65px;
+    background: rgb(70, 69, 69);
+}
+#small ul {
+    padding: 1px;
+    height: 40px;
+}
+#small ul li {
+    float: left;
+    margin: 2px 0;
+    line-height: 40px;
+    font-size: 13px;
+} 
+#small ul li a {
+    padding: 4px 10px;
+    border-right: 1px solid grey;
+}
+#small ul li:last-of-type a{
+    border-style: none;
+}
+#content {
+    width: 98%;
+    margin: 146px auto 0 auto;
+    overflow: hidden;
+}
+#above {
+    overflow: hidden;
+}
+#dawn {
+    width: 600px;
+    float: left;
+    overflow: hidden;
+}
+.picture>img {
+    float: left;
+    z-index: -1;
+}
+.picture span{
+    float: left;
+    background: rgba(78, 112, 224, 0.6);
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.picture p {
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px 0 3px 10px;
+}
+#dawn .picture span{
+    margin-top: -56px;
+}
+#dawn .picture p {
+    margin-top: -26px;
+}
+#climate {
+    width: 310px;
+    height: 300px;
+    margin: -10px 12px 12px 12px; 
+    float: left;
+    overflow: hidden;
+}
+#climate .picture span{
+    margin-top: -90px;
+}
+#climate .picture p {
+    margin-top: -60px;
+}
+#events {
+    float: left;
+    box-sizing: border-box;
+    width: 318px;
+    height: 290px;
+    background: rgb(72, 112, 145); 
+    padding: 10px 10px 0 10px;
+    color: white;
+    font-size: 12px;
+}
+#events p {
+    margin: 5px 0;
+}
+#events p:last-of-type {
+    margin-top: 142px;
+    border-top: 1px solid white;
+    padding: 0 5px;
+}
+#events span:nth-of-type(1) {
+    padding-right: 40px; 
+}
+#launch {
+    float: left;
+    margin-left: 12px;
+    width: 639px;
+    height: 300px;
+    overflow: hidden;
+}
+#launch .picture p {
+    margin-top: -48px; 
+}
+#middle {
+    margin: 10px 0;
+    overflow: hidden;
+}
+#day {
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+}
+#day .picture>img {
+    margin-left: -340px;
+}
+#day .picture span {
+    margin-top: -76px;
+}
+#day .picture p {
+    margin-top: -46px;
+}
+.camera {
+    float: left;   
+    width: 23px;
+    height: 20px;
+    overflow: hidden;
+}
+#day .camera {
+    margin: -310px 0 0 270px;
+}
+.camera img {
+    margin: -15px 0 0 -13px;
+}
+#asteroids {
+    float: left;
+    width: 610px;
+    margin: 0 12px;
+}
+#asteroids .picture span{
+    margin-top: -56px;
+}
+#asteroids .picture p{
+    margin-top: -26px;
+}
+#vedio {
+    float: left;
+    width: 316px;
+    overflow: hidden;
+}
+#bottom {
+    overflow: hidden;
+}
+#NASA {
+    background: rgb(49, 49, 49);
+}
+#NASA,#juno,#cassini {
+    float: left;
+    overflow: hidden;
+    width: 300px;
+    margin-right: 11px;
+}
+#juno .camera {
+    margin: -290px 0 0 270px;
+}
+#space {
+    float: left;
+    overflow: hidden;
+    width: 316px; 
+    height: 300px;
+}
+#bottom .picture span {
+    margin-top: -76px; 
+}
+#bottom .picture p {
+    margin-top: -46px; 
+}
+#space .picture span {
+    margin-top: -94px; 
+}
+#space .picture p {
+    margin-top: -62px; 
+}
+footer {
+    width: 99%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+#more {
+    background: rgb(41, 80, 153);
+    color: white;
+    margin: 30px 0;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#official {
+    margin-left: 20px;
+}
+#official img {
+    float: left;
+}
+#introduce {
+    float: left;
+    color: white;
+    font-size: 10px;
+    width: 300px;
+}
+#foot {
+    margin: 90px 0px 0px 320px;
+}
+#foot ul li {
+    float: left;
+}
+#foot ul li a {
+    padding: 15px;
+    font-size: 10px;
+    color: rgb(67, 104, 173);
+    font-weight: bold;
+}
+
