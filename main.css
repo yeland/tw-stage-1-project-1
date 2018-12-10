@@ -17,8 +17,10 @@ a {
 .header {
     background: url('./images/starfield-banner.jpg ');
     position: fixed;
+    top: 0;
     width: 95%;
     padding: 10px;
+    z-index: 1;
 }
 
 /* .header .logo-link {
