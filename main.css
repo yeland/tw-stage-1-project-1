@@ -17,19 +17,19 @@ a {
 .header {
     background: url('./images/starfield-banner.jpg ');
     position: fixed;
+    top: 0;
     width: 95%;
     padding: 10px;
+    z-index: 1;
 }
 
 /* .header .logo-link {
     padding: 10px;
 } */
 
-.header .logo {
+.logo {
     width:110px;
     margin:11px;
-} 
-.logo {
     float: left;
 }
 #nav {
@@ -223,6 +223,7 @@ a {
 #vedio {
     float: left;
     width: 316px;
+    height: 300px;
     overflow: hidden;
 }
 #bottom {
